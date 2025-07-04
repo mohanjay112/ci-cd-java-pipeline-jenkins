@@ -47,28 +47,28 @@ This project demonstrates a complete **Continuous Delivery (CD)** pipeline for a
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### ✅ Jenkins Build
+## ✅ Jenkins Build
 ![Jenkins Build](Screenshots/jenkins-build.png)
 
-### ✅ Nexus Upload
+## ✅ Nexus Upload
 ![Nexus Repo](Screenshots/nexus-repo.png)
 
-### ✅ SonarQube Scan
+## ✅ SonarQube Scan
 ![Sonar](Screenshots/sonarqube-report.png)
 
-### ✅ Slack Notification
+## ✅ Slack Notification
 ![Slack](Screenshots/slack-notification.png)
 
-### ✅ Selenium Test Output
+## ✅ Selenium Test Output
 ![Selenium](Screenshots/selenium-test.png)
 
-### ✅ App Running
+## ✅ App Running
 ![Login Page](Screenshots/login-page.png)
 
 
-## 📚 Learning Outcome
+# Learning Outcome
 
 - Developed a full CI/CD pipeline from code push to deployment
 - Connected Jenkins with SonarQube, Nexus, Selenium, and Tomcat
