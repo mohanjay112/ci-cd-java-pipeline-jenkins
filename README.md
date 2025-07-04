@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 # Java CD Pipeline using Jenkins 
 
 This project demonstrates a complete **Continuous Delivery (CD)** pipeline for a Java web application.
 
 ---
 
-##  Project Objectives
+#  Project Objectives
 
 - Build Java web app using **Maven**
 - Perform **code quality check** using **SonarQube**
@@ -17,7 +17,7 @@ This project demonstrates a complete **Continuous Delivery (CD)** pipeline for a
 
 ---
 
-## 🔧 Tools Used
+# Tools Used
 
 | Tool        | Purpose |
 |-------------|---------|
@@ -34,7 +34,7 @@ This project demonstrates a complete **Continuous Delivery (CD)** pipeline for a
 
 ---
 
-##  Pipeline Flow
+#  Pipeline Flow
 
 1. Code pushed to GitHub
 2. Jenkins job triggers automatically
@@ -47,35 +47,29 @@ This project demonstrates a complete **Continuous Delivery (CD)** pipeline for a
 
 ---
 
-##  Folder Structure
+## 📸 Screenshots
 
-├── src/
-│ └── main/
-│ └── java/
-├── pom.xml
-├── Jenkinsfile (optional)
-├── README.md
+### ✅ Jenkins Build
+![Jenkins Build](Screenshots/jenkins-build.png)
 
-=======
-#  CI/CD Pipeline for Java Web Application using Jenkins
+### ✅ Nexus Upload
+![Nexus Repo](Screenshots/nexus-repo.png)
 
-This project sets up a complete **Continuous Integration and Continuous Delivery (CI/CD)** pipeline for a Java-based web application using **Jenkins** as the automation server.
+### ✅ SonarQube Scan
+![Sonar](Screenshots/sonarqube-report.png)
 
-It includes integration with **Git**, **Maven**, **SonarQube**, **Nexus**, **Slack**, **Tomcat**, and **Selenium** for testing.
+### ✅ Slack Notification
+![Slack](Screenshots/slack-notification.png)
 
----
+### ✅ Selenium Test Output
+![Selenium](Screenshots/selenium-test.png)
 
-## Tools Used
+### ✅ App Running
+![Login Page](Screenshots/login-page.png)
 
-- Jenkins
-- Git (GitHub)
-- Maven
-- SonarQube (code quality analysis)
-- Nexus (artifact repository)
-- Selenium (automated testing)
-- Tomcat (deployment)
-- Slack (notifications)
-- AWS EC2 (for Jenkins, Sonar, Nexus, Tomcat)
->>>>>>> 49ca52ac4a44130bf6d3b1f1844aa7b408f67d1c
+
+
+
+
 
 
