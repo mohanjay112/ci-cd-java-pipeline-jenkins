@@ -68,6 +68,17 @@ This project demonstrates a complete **Continuous Delivery (CD)** pipeline for a
 ![Login Page](Screenshots/login-page.png)
 
 
+## 📚 Learning Outcome
+
+- Developed a full CI/CD pipeline from code push to deployment
+- Connected Jenkins with SonarQube, Nexus, Selenium, and Tomcat
+- Automated WAR builds and versioned uploads to Nexus
+- Performed automated testing using Selenium
+- Successfully deployed the app to a remote Tomcat server
+- Used Slack for team communication and alerting
+
+
+
 
 
 
